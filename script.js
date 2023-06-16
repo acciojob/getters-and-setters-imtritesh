@@ -24,13 +24,13 @@ class Person {
 
 class Student extends Person {
 	study() {
-    console.log(`${this.getName()} is studying.`);
+    console.log(`${this.getName(), this.getAge()} is studying.`);
   }
 }
 
 class Teacher extends Person {
 	teach() {
-    console.log(`${this.getName()} is teaching.`);
+    console.log(`${this.getName(), this.getAge()} is teaching.`);
   }
 }
 
